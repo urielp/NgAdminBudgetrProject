@@ -1,0 +1,11 @@
+<div class="row">
+  <ba-card *ngFor ="let bank of bankData" title={{bank.bankName}} class="col-md-4 bank-account-card-body" >
+    <div>
+      <div class="card-body ">
+        <div class="description description-accounts-balance-card" [ngClass]="{'neg': isNegetive(bank)}">
+          <span class="fa fa-ils currency"></span>{{bank.balance}}
+        </div>
+      </div>
+    </div>
+  </ba-card>
+</div>

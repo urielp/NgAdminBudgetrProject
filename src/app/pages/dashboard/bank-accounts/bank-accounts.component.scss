@@ -1,0 +1,39 @@
+.description-accounts-balance-card
+{
+//float:left;
+font-size: 50px;
+direction: ltr;
+margin-top: 6px;
+text-align: center;
+margin-left: -100px;
+
+}
+.check{
+  float:left;
+}
+.currency
+{
+  font-size: 30px;
+  margin-top: -12px;
+  margin-left: 85px;
+  color:white;
+  text-shadow: 0px 0px 0px black;
+}
+.description-accounts-number-card
+{
+  float:right;
+  direction:ltr;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.neg{
+  color:red;
+  text-shadow: 1.5px 1.5px 1.5px black;
+  font-weight:bold;
+
+}
+.bank-account-card-body
+{
+  height:100%;
+}

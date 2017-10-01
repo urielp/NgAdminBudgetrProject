@@ -1,0 +1,89 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+body{
+direction: rtl;
+}
+.card-title-heb
+{
+  direction: rtl;
+}
+.breadcrumb-item {
+  float: right;
+}
+
+.al-sidebar
+{
+  float: right;
+}
+
+h1.al-title
+{
+
+  direction: rtl;
+
+}
+.i-arrow-green-up
+{
+  display: inline-block;
+  background: url(/assets/img/arrow-green-up.svg) no-repeat center;
+  background-size: contain;
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+}
+
+.i-food
+{
+
+}
+
+.i-ils
+{
+
+  display: inline-block;
+  background-size: contain;
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+}
+.i-arrow-red-down
+{
+  display: inline-block;
+  background: url(/assets/img/arrow-red-down.svg) no-repeat center;
+  background-size: contain;
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+}
+
+
+.description-pie-chart-heb
+{
+  direction: rtl;
+  float: right;
+  margin-right: 85px;
+}
+.channels-block .channel-info
+{
+  margin-left: 30px;
+}
+.iw {
+  float:left;
+}
+
+.channels-info-item .channel-number
+{
+  float: left;
+  direction: ltr;
+}
+.channels-block .channel-progress
+{
+  direction:rtl;
+}
+
+.channels-info-item p
+{
+  direction: rtl;
+  right: -126px;
+}

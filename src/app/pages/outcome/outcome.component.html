@@ -1,0 +1,44 @@
+<div class="widgets">
+
+  <div class="row">
+    <div class="col-xlg-12 col-xl-12 col-lg-12  col-md-12 col-sm-12 col-12" style="direction: rtl">
+
+<ba-card title="Hover Rows" baCardClass="with-scroll table-panel">
+
+<div class="horizontal-scroll">
+  <table class="table table-hover">
+    <thead>
+    <tr class="black-muted-bg">
+      <th class="browser-icons"></th>
+      <th>Browser</th>
+      <th class="align-right">Visits</th>
+      <th class="table-arr"></th>
+      <th class="align-right">Purchases</th>
+      <th class="table-arr"></th>
+      <th class="align-right">%</th>
+      <th class="table-arr"></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of metricsTableData" class="no-top-border">
+      <td><img src="{{ ( item.image | baAppPicture ) }}" width="20" height="20"></td>
+      <td ngClass="nowrap"></td>
+      <td class="align-right">aa</td>
+      <td class="table-arr"><i ></i>aa</td>
+      <td class="align-right">aa</td>
+      <td class="table-arr"><i ></i>aa</td>
+      <td class="align-right">aa</td>
+      <td class="table-arr"><i ></i>aa</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <i class="ion-ios-plus-outline" (click)="childModalShow()" >הוסף</i>
+
+    </tfoot>
+  </table>
+</div>
+</ba-card>
+    </div>
+  </div>
+</div>
+
