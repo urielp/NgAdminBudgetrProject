@@ -1,4 +1,4 @@
-@import "/../../../theme/sass/conf/conf";
+@import '/../../../theme/sass/conf/conf';
 
 .modal-buttons .btn {
   margin-right: 20px;
@@ -7,4 +7,11 @@
 .modal-content {
   color: $dropdown-text;
   background-color:#4271ae;
+}
+
+.checkbox {
+  display: inline-block;
+  margin-bottom: -12px;
+  margin-left: 12px;
+  text-align: right;
 }
