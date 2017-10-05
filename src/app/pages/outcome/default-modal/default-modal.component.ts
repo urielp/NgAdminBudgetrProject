@@ -17,12 +17,16 @@ export class DefaultModal implements OnInit {
    nisl ut aliquip ex ea commodo consequat.`;
 
   constructor(private activeModal: NgbActiveModal) {
-
+    this.modalHeader = 'הוספת הוצאה';
   }
 
   ngOnInit() {}
 
   closeModal() {
     this.activeModal.close();
+  }
+
+  doSomthing() {
+    alert('Doing somthing');
   }
 }
